@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: black;
+    width: 100vw;
+    height: 90vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -1;
+    background-size: cover;
+    opacity: 0.1;
+}
+
+header {
+    padding: 15px;
+    margin-top: 20px;
+    display: flex;
+}
+
+nav {
+    margin-top: 15px;
+    font-size: 30px;
+    margin-left: 70%;
+}
+
+header a {
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.5s;
+}
+
+header a:hover {
+    transition: all 0.5s ease-in-out;
+    background-color: red;
+}
+
+.logochp {
+    width: 70px;
+
+}
+
+.logom {
+    margin: 0px;
+}
+
+.main {
+    display: flex;
+}
+
+.img2 {
+    margin-top: 12%;
+}
+
+.conteudo {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+
+    justify-content: space-evenly;
+}
+
+.logo {
+    margin-bottom: 50px;
+    margin-top: 20%;
+    width: 450px;
+}
+
+.conteudo p {
+    color: gray;
+    font-size: 23px;
+}
+
+
+.conteudo input {
+    border: none;
+    transition: transform 0.5s;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 79%;
+    background-color: red;
+    padding: 12px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 60px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.conteudo input:hover {
+    transform: scale(1.15);
+}
+
+footer {
+    padding: 3px;
+    text-align: center;
+    margin-top: 147px;
+    font-size: 8px;
+    background-color: rgba(0, 0, 0, 0.44);
+    color: rgba(255, 255, 255, 0.721);
+    background-attachment: fixed;
+}
